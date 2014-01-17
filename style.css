@@ -1,0 +1,14 @@
+h1, h3 {
+    text-align: center;
+}
+
+img.profile-photo {
+    width: 100%;
+    max-width: 200px;
+    float: left;
+    padding-right: 1em;
+}
+
+.where .dates {
+    float: right;
+}

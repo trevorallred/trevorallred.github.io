@@ -1,0 +1,34 @@
+{
+    "where": [
+        {
+            "slug": "pics",
+            "name": "PICS Auditing, LLC",
+            "start": "2007-10",
+            "end": "Current",
+            "logo": "logo-pics.png",
+            "summary": "asdfasdfas dfasd fasdf asdf",
+            "about": "qweifqdvqoiwvnq wv",
+            "my-role": ""
+        }
+    ],
+    "what": [
+        {
+            "slug": "dynamic-reports",
+            "where": "pics",
+            "start": "2013",
+            "screenshot": "",
+            "hows": ["extjs", "mysql", {
+                "java": 3
+            }]
+        }
+    ],
+    "how": [
+        {
+            "slug": "extjs",
+            "name": "ExtJS",
+            "logo": "",
+            "experience": "",
+            "recent": ""
+        }
+    ]
+}
