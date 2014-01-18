@@ -25,6 +25,24 @@ app.config(['$routeProvider',
                     }
                 }
             }).
+            when('/what/:slug', {
+                templateUrl: 'app/what.html',
+                controller: 'whatController',
+                resolve: {
+                    resume_data: function(resumeService) {
+                        return resumeService.getResumeData();
+                    }
+                }
+            }).
+            when('/how/:slug', {
+                templateUrl: 'app/how.html',
+                controller: 'howController',
+                resolve: {
+                    resume_data: function(resumeService) {
+                        return resumeService.getResumeData();
+                    }
+                }
+            }).
             otherwise({
                 redirectTo: '/'
             });
