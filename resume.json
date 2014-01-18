@@ -3,8 +3,18 @@
         {
             "slug": "pics",
             "name": "PICS Auditing, LLC",
-            "start": "2007-10",
+            "start": "Oct 2007",
             "end": "Current",
+            "logo": "logo-pics.png",
+            "summary": "asdfasdfas dfasd fasdf asdf",
+            "about": "qweifqdvqoiwvnq wv",
+            "my-role": ""
+        },
+        {
+            "slug": "xdti",
+            "name": "XDimensional Technologies",
+            "start": "Oct 2006",
+            "end": "Sept 2007",
             "logo": "logo-pics.png",
             "summary": "asdfasdfas dfasd fasdf asdf",
             "about": "qweifqdvqoiwvnq wv",
@@ -14,6 +24,8 @@
     "what": [
         {
             "slug": "dynamic-reports",
+            "name": "Dynamic Reporting",
+            "summary": "asdfasdfas dfasd fasdf asdf",
             "where": "pics",
             "start": "2013",
             "screenshot": "",
@@ -29,6 +41,10 @@
             "logo": "",
             "experience": "",
             "recent": ""
+        },
+        {
+            "slug": "mysql",
+            "name": "MySQL"
         }
     ]
 }

@@ -1,0 +1,59 @@
+<nav class="navbar navbar-default navbar-fixed-top hidden">
+    <img class="profile-photo" src="images/TAllred.jpg">
+
+    <h1>Trevor Allred - Resume</h1>
+</nav>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="">Trevor Allred</h1>
+
+        <p class="">
+            <img class="profile-photo" src="images/TAllred.jpg">
+
+            Bio summary here...Wes Anderson umami biodiesel YOLO, Terry Richardson helvetica tousled
+            street art master cleanse selfies Godard cornhole 8-bit pork belly scenester. Blog blue bottle Neutra,
+            polaroid pug cliche dreamcatcher. Ethnic wolf church-key, Wes Anderson tattooed meh tumblr direct trade
+            literally jean shorts swag shabby chic chillwave DIY pug.
+        </p>
+
+    </div>
+
+    <div class="row">
+        <div class="col-lg-5 where">
+            <h3 title="Where">Work History & Education</h3>
+
+            <div class="list-group">
+                <a href="/#where/{{where.slug}}" class="list-group-item" ng-repeat="where in resume_data.where">
+                    <h4>{{where.name}}</h4>
+
+                    <p class="dates badge">{{where.start}} - {{where.end}}</p>
+
+                    <p class="quick-summary">{{where.summary}}</p>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-5 what">
+            <h3 title="What">Projects & Accomplishments</h3>
+
+            <div class="list-group">
+                <a href="/#what/{{what.slug}}" class="list-group-item" ng-repeat="what in resume_data.what">
+                    <h4>{{what.name}}</h4>
+
+                    <p class="dates badge">{{what.start}} - {{what.end}}</p>
+
+                    <p class="quick-summary">{{what.summary}}</p>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-2 how">
+            <h3 title="How">Skills</h3>
+
+            <div>
+                <a href="/#how/{{how.slug}}" class="badge" ng-repeat="how in resume_data.how">{{how.name}}</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
