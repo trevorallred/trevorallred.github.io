@@ -1,8 +1,13 @@
-var resumeServices = angular.module('ResumeServices', ['ngResource']);
+'use strict';
 
-resumeServices.factory('ResumeServices', ['$resource',
-    function ($resource) {
-        return $resource('resume.json', {}, {
-            query: {method: 'GET'}
-        });
-    }]);
+var services = angular.module('myApp.services', []);
+
+services.factory('resumeService', ['$http', function ($http) {
+    return {
+        getResumeData: function () {
+            return $http({ method: 'GET', url: 'resume.json' }).success(function (data) {
+                return data;
+            });
+        }
+    }
+}]);

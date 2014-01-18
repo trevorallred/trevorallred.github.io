@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="row">
+        <h2>{{company.name}}</h2>
+
+        <p class="dates badge">{{company.start}} - {{company.end}}</p>
+
+        <img src="images/logo-pics.png">
+        <h5>About {{company.name}}</h5>
+
+        <p class="about">{{company.about}}</p>
+
+        <h5>My Role</h5>
+
+        <p class="role">{{company.role}}</p>
+
+        <div class="col-lg-5 what">
+            <h3 title="What">Projects & Accomplishments</h3>
+
+            <div class="list-group">
+                <a href="/#what/{{what.slug}}" class="list-group-item" ng-repeat="what in resume_whats">
+                    <h4>{{what.name}}</h4>
+
+                    <p class="dates badge">{{what.start}} - {{what.end}}</p>
+
+                    <p class="quick-summary">{{what.summary}}</p>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-2 how">
+            <h3 title="How">Skills</h3>
+
+            <div>
+                <a href="#" class="badge">MySQL</a>
+                <a href="#" class="badge">MySQL</a>
+                <a href="#" class="badge">MySQL</a>
+                <a href="#" class="badge">MySQL</a>
+                <a href="#" class="badge">MySQL</a>
+            </div>
+        </div>
+
+    </div>
+</div>

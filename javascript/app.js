@@ -1,31 +1,47 @@
-var resumeApp = angular.module('resumeApp', [
-    'ngRoute'
+'use strict';
+
+var app = angular.module('myApp', [
+    'ngRoute', 'myApp.services', 'myApp.controllers'
 ]);
 
-resumeApp.config(['$routeProvider',
+app.config(['$routeProvider',
     function ($routeProvider) {
         $routeProvider.
             when('/', {
                 templateUrl: 'app/overview.html',
-                controller: 'OverviewController'
+                controller: 'overviewController',
+                resolve: {
+                    resume_data: function(resumeService) {
+                        return resumeService.getResumeData();
+                    }
+                }
             }).
-            when('/where/', {
-                templateUrl: 'app/company.html',
-                controller: 'ResumeController'
+            when('/where/:slug', {
+                templateUrl: 'app/where.html',
+                controller: 'whereController',
+                resolve: {
+                    resume_data: function(resumeService) {
+                        return resumeService.getResumeData();
+                    }
+                }
             }).
             otherwise({
                 redirectTo: '/'
             });
     }]);
 
-resumeApp.controller('OverviewController', function ($scope, $http) {
-    $http.get('resume.json').success(function(data) {
-        $scope.resume_data = data;
-    });
-});
+app.run(['$rootScope', function($root) {
 
-resumeApp.controller('ResumeController', function ($scope, $http) {
-    $http.get('resume.json').success(function(data) {
-        $scope.resume_data = data;
+    $root.$on('$routeChangeStart', function(e, curr, prev) {
+        if (curr.$$route && curr.$$route.resolve) {
+            // Show a loading message until promises are resolved
+            $root.loadingView = true;
+        }
     });
-});
+
+    $root.$on('$routeChangeSuccess', function(e, curr, prev) {
+        // Hide loading message
+        $root.loadingView = false;
+    });
+
+}]);

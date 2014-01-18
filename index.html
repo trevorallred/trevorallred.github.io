@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="resumeApp">
+<html lang="en" ng-app="myApp">
 <head>
     <title>Resume for Trevor Allred</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,8 +15,16 @@
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-route.min.js"></script>
     <script src="javascript/app.js"></script>
+    <script src="javascript/controllers.js"></script>
+    <script src="javascript/services.js"></script>
 </head>
 <body>
+<nav class="navbar navbar-default">
+    <!--<img class="profile-photo" src="images/TAllred.jpg">-->
+    <!--<h1>Trevor Allred - Resume</h1>-->
+    <a href="/">Top</a>
+</nav>
 <div ng-view></div>
+
 </body>
 </html>
