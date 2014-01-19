@@ -9,6 +9,13 @@ img.profile-photo {
     padding-right: 1em;
 }
 
+img.logo-thumb {
+    width: 100%;
+    max-width: 200px;
+    float: left;
+    padding-right: 1em;
+}
+
 .where .dates {
     float: right;
 }

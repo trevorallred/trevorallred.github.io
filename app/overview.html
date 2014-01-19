@@ -1,16 +1,8 @@
 <div class="container">
     <div class="jumbotron">
-        <h1 class="">Trevor Allred</h1>
-
-        <p class="">
-            <img class="profile-photo" src="images/TAllred.jpg">
-
-            Bio summary here...Wes Anderson umami biodiesel YOLO, Terry Richardson helvetica tousled
-            street art master cleanse selfies Godard cornhole 8-bit pork belly scenester. Blog blue bottle Neutra,
-            polaroid pug cliche dreamcatcher. Ethnic wolf church-key, Wes Anderson tattooed meh tumblr direct trade
-            literally jean shorts swag shabby chic chillwave DIY pug.
-        </p>
-
+        <img class="profile-photo" src="{{resume_data.photo}}">
+        <h1 class="">{{resume_data.name}}</h1>
+        <p class="clearfix">{{resume_data.summary}}</p>
     </div>
 
     <div class="row">
@@ -49,3 +41,6 @@
         </div>
     </div>
 </div>
+<footer>
+    <p>Powered by Resume Builder.</p>
+</footer>

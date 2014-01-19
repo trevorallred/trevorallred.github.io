@@ -1,4 +1,8 @@
 {
+    "name": "Trevor Allred",
+    "tagline": "Software Executive",
+    "summary": "This is short bio here.",
+    "photo": "images/TAllred.jpg",
     "where": [
         {
             "slug": "pics",

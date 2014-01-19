@@ -1,18 +1,25 @@
+<ol class="breadcrumb">
+    <li><a href="/">Resume for {{resume_data.name}}</a></li>
+    <li class="active">{{where.name}}</li>
+</ol>
 <div class="container">
-    <div class="row">
+    <div class="jumbotron">
+        <img src="{{where.logo}}" class="logo-thumb" />
+
         <h2>{{where.name}}</h2>
 
         <p class="dates badge">{{where.start}} - {{where.end}}</p>
 
-        <img src="{{where.logo}}" />
         <h5>About {{where.name}}</h5>
 
         <p class="about">{{where.about}}</p>
 
         <h5>My Role</h5>
 
-        <p class="role">{{where.role}}</p>
+        <p class="role clearfix">{{where.role}}</p>
+    </div>
 
+    <div class="row">
         <div class="col-lg-5 what" ng-if="whats.length > 0">
             <h3 title="What">Projects & Accomplishments</h3>
 

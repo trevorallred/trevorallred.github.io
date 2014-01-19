@@ -1,3 +1,8 @@
+<ol class="breadcrumb">
+    <li><a href="/">Resume for {{resume_data.name}}</a></li>
+    <li ng-if="where"><a href="/#where/{{where.slug}}">{{where.name}}</a></li>
+    <li class="active">{{what.name}}</li>
+</ol>
 <div class="container">
     <div class="row">
         <h2>{{what.name}}</h2>
