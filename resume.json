@@ -5,7 +5,7 @@
             "name": "PICS Auditing, LLC",
             "start": "Oct 2007",
             "end": "Current",
-            "logo": "logo-pics.png",
+            "logo": "images/logo-pics.png",
             "summary": "asdfasdfas dfasd fasdf asdf",
             "about": "CS provides umami biodiesel YOLO, Terry Richardson helvetica tousled street art master.",
             "role": "Super!"
@@ -15,7 +15,16 @@
             "name": "XDimensional Technologies",
             "start": "Oct 2006",
             "end": "Sept 2007",
-            "logo": "logo-pics.png",
+            "logo": "",
+            "summary": "asdfasdfas dfasd fasdf asdf",
+            "about": "qweifqdvqoiwvnq wv",
+            "role": "My role was great!!"
+        },
+        {
+            "slug": "remedy",
+            "name": "RemedyMD",
+            "start": "Sept 2004",
+            "end": "Sept 2006",
             "summary": "asdfasdfas dfasd fasdf asdf",
             "about": "qweifqdvqoiwvnq wv",
             "role": "My role was great!!"
@@ -26,7 +35,10 @@
             "slug": "dynamic-reports",
             "name": "Dynamic Reporting",
             "summary": "asdfasdfas dfasd fasdf asdf",
+            "about": "qweifqdvqoiwvnq wv",
+            "role": "asdfasdfas dfasd fasdf asdf",
             "where": "pics",
+            "logo": "",
             "start": "2013",
             "screenshot": "",
             "hows": ["extjs", "mysql", {
