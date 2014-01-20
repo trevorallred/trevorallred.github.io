@@ -18,14 +18,15 @@
             <div class="list-group">
                 <a href="/#where/{{where.slug}}" class="list-group-item thumbnail col-sm-6 col-md-12"
                    ng-repeat="where in resume_data.where">
-                    <img src="{{where.logo}}" >
+                    <img src="{{where.logo}}" ng-if="where.logo">
 
                     <div class="caption">
-                        <h4>{{where.name}}</h4>
-
                         <p class="dates badge">{{where.start}} - {{where.end}}</p>
 
-                        <p class="quick-summary">{{where.summary}}</p>
+                        <h4>{{where.name}}</h4>
+
+                        <p class="quick-summary" ng-if="where.summary">{{where.summary}}</p>
+                        <p class="quick-summary" ng-if="!where.summary">{{where.about}}</p>
                     </div>
                 </a>
             </div>
@@ -34,12 +35,17 @@
             <h3 title="What">Projects & Accomplishments</h3>
 
             <div class="list-group">
-                <a href="/#what/{{what.slug}}" class="list-group-item" ng-repeat="what in resume_data.what">
-                    <h4>{{what.name}}</h4>
+                <a href="/#what/{{what.slug}}" class="list-group-item thumbnail col-sm-6 col-md-12"
+                   ng-repeat="what in resume_data.what">
+                    <img src="{{where.logo}}" ng-if="where.logo">
 
-                    <p class="dates badge">{{what.start}} - {{what.end}}</p>
+                    <div class="caption">
+                        <h4>{{what.name}}</h4>
 
-                    <p class="quick-summary">{{what.summary}}</p>
+                        <p class="dates badge">{{what.start}} - {{what.end}}</p>
+
+                        <p class="quick-summary">{{what.summary}}</p>
+                    </div>
                 </a>
             </div>
         </div>

@@ -4,19 +4,25 @@
 </ol>
 <div class="container">
     <div class="jumbotron">
-        <img src="{{where.logo}}" class="logo-thumb" />
+        <img src="{{where.logo}}" class="logo-thumb"/>
 
         <h2>{{where.name}}</h2>
 
         <p class="dates badge">{{where.start}} - {{where.end}}</p>
 
-        <h5>About {{where.name}}</h5>
+        <div ng-if="where.about">
+            <h5>About {{where.name}}</h5>
 
-        <p class="about">{{where.about}}</p>
+            <p class="about">{{where.about}}</p>
+        </div>
 
-        <h5>My Role</h5>
+        <p ng-if="where.website"><a href="{{where.website}}">{{where.website}}</a></p>
 
-        <p class="role clearfix">{{where.role}}</p>
+        <div ng-if="where.role">
+            <h5>My Role</h5>
+
+            <p class="role clearfix">{{where.role}}</p>
+        </div>
     </div>
 
     <div class="row">

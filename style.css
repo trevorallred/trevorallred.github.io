@@ -13,15 +13,23 @@ img.profile-photo {
     padding-right: 1em;
 }
 
-img.logo-thumb {
+.list-group-item {
+    margin-bottom: 3px;
+}
+
+.thumbnail img {
     width: 100%;
     max-width: 200px;
     float: left;
-    padding-right: 1em;
+    padding: 1em 1em 2em 0;
 }
 
-.where .dates {
+.where .dates, .what .dates {
     float: right;
+}
+
+.how .badge {
+    margin: 2px;
 }
 
 #wrap {

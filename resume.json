@@ -1,37 +1,82 @@
 {
     "name": "Trevor Allred",
     "tagline": "Software Executive",
-    "summary": "This is short bio here.",
+    "summary": "I am a software executive with a passion for programming. I'm intelligent and a great strategist. I got my start in web development in 1995 and have building database enabled applications ever since.",
     "photo": "images/TAllred.jpg",
+    "highlights": {
+        "where": ["pics", "remedy", "uci"]
+    },
     "where": [
         {
             "slug": "pics",
             "name": "PICS Auditing, LLC",
+            "website": "http://www.picsauditing.com/",
             "start": "Oct 2007",
             "end": "Current",
             "logo": "images/logo-pics.png",
-            "summary": "asdfasdfas dfasd fasdf asdf",
-            "about": "CS provides umami biodiesel YOLO, Terry Richardson helvetica tousled street art master.",
-            "role": "Super!"
+            "summary": "As VP of Engineering, I am in charge of our flagship product PICS Organizer--a web based application that enables large companies manage their subcontractors.",
+            "about": "Founded in 2003, PICS has grown After 5 years of organic growth, we took our first round of funding from NVP [http://www.nvp.com/].",
+            "role": "In 2007 I was employee #7 at PICS. I started as the Development Manager with one part time contractor. "
         },
         {
             "slug": "xdti",
             "name": "XDimensional Technologies",
             "start": "Oct 2006",
             "end": "Sept 2007",
-            "logo": "",
-            "summary": "asdfasdfas dfasd fasdf asdf",
-            "about": "qweifqdvqoiwvnq wv",
-            "role": "My role was great!!"
+            "logo": "images/logo-xdti.png",
+            "website": "http://www.xdimensional.com/",
+            "about": null,
+            "role": null
         },
         {
             "slug": "remedy",
             "name": "RemedyMD",
             "start": "Sept 2004",
             "end": "Sept 2006",
-            "summary": "asdfasdfas dfasd fasdf asdf",
-            "about": "qweifqdvqoiwvnq wv",
-            "role": "My role was great!!"
+            "logo": "images/logo-remedy.png",
+            "about": null,
+            "role": null
+        },
+        {
+            "slug": "uci",
+            "type": "Education",
+            "name": "UCI Merage School of Business",
+            "start": "Sept 2002",
+            "end": "Jun 2005",
+            "about": null,
+            "role": null
+        },
+        {
+            "slug": "rand",
+            "name": "Rand Technology",
+            "start": "Sept 2004",
+            "end": "Jan 2002",
+            "about": null,
+            "role": null
+        },
+        {
+            "slug": "rock",
+            "name": "Rockclimbing.com",
+            "type": "Personal",
+            "start": "1996",
+            "end": "2004",
+            "about": null,
+            "role": null
+        },
+        {
+            "slug": "tenfold",
+            "name": "TenFold Corporation",
+            "start": "May 1998",
+            "end": "Sept 2001",
+            "about": null,
+            "role": null
+        },
+        {
+            "slug": "byu",
+            "name": "Brigham Young University",
+            "start": "1992",
+            "end": "1998",
+            "about": null
         }
     ],
     "what": [
@@ -48,6 +93,17 @@
             "hows": ["extjs", "mysql", {
                 "java": 3
             }]
+        },
+        {
+            "slug": "bs",
+            "name": "Management Information Systems",
+            "summary": "A BS degree with a perfect blend of business and computer science. We studied topics CS topics like database design, SDLC, Visual Basic",
+            "about": "qweifqdvqoiwvnq wv",
+            "role": "asdfasdfas dfasd fasdf asdf",
+            "where": "byu",
+            "logo": "",
+            "start": "1992",
+            "end": "1998"
         }
     ],
     "how": [
