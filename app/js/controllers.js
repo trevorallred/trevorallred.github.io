@@ -20,8 +20,11 @@ controllers.controller('whatController', [
     function ($scope, $filter, $routeParams, resume_data) {
         $scope.resume_data = resume_data.data;
         $scope.what = $filter('filter')(resume_data.data.what, {slug: $routeParams.slug})[0];
-        console.info($scope.what);
         $scope.where = $filter('filter')(resume_data.data.where, {slug: $scope.what.where})[0];
+        if (!$scope.what.start) {
+            $scope.what.start = $scope.where.start;
+            $scope.what.end = $scope.where.end;
+        }
     }]);
 
 controllers.controller('howController', [

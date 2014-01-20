@@ -1,6 +1,6 @@
 <div id="wrap" class="container">
     <div class="jumbotron">
-        <img class="profile-photo" src="{{resume_data.photo}}">
+        <img class="img-circle img-responsive profile-photo" src="{{resume_data.photo}}">
 
         <h1 class="">{{resume_data.name}}</h1>
 
@@ -8,7 +8,14 @@
     </div>
 
     <div class="row">
-        <div class="col-lg-5 where">
+        <div class="col-md-9 how bs-callout bs-callout-warning" ng-if="resume_data.how">
+            <h3 title="How">Skills</h3>
+            <a href="/#how/{{how.slug}}" class="badge" ng-repeat="how in resume_data.how">{{how.name}}</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 where">
             <h3 title="Where">Work History & Education</h3>
 
             <div class="alert alert-warning" ng-if="!resume_data.where">
@@ -21,7 +28,7 @@
                     <img src="{{where.logo}}" ng-if="where.logo">
 
                     <div class="caption">
-                        <p class="dates badge">{{where.start}} - {{where.end}}</p>
+                        <p class="dates badge" ng-if="where.start">{{where.start}}<span ng-if="where.end"> - </span>{{where.end}}</p>
 
                         <h4>{{where.name}}</h4>
 
@@ -31,7 +38,7 @@
                 </a>
             </div>
         </div>
-        <div class="col-lg-5 what" ng-if="resume_data.what">
+        <div class="col-md-6 what" ng-if="resume_data.what">
             <h3 title="What">Projects & Accomplishments</h3>
 
             <div class="list-group">
@@ -42,18 +49,12 @@
                     <div class="caption">
                         <h4>{{what.name}}</h4>
 
-                        <p class="dates badge">{{what.start}} - {{what.end}}</p>
+                        <p class="dates badge" ng-if="what.start">{{what.start}}<span ng-if="what.start && what.end"> - </span>{{what.end}}</p>
 
-                        <p class="quick-summary">{{what.summary}}</p>
+                        <p class="quick-summary" ng-if="what.summary">{{what.summary}}</p>
+                        <p class="quick-summary" ng-if="!what.summary">{{what.about}}</p>
                     </div>
                 </a>
-            </div>
-        </div>
-        <div class="col-lg-2 how" ng-if="resume_data.how">
-            <h3 title="How">Skills</h3>
-
-            <div>
-                <a href="/#how/{{how.slug}}" class="badge" ng-repeat="how in resume_data.how">{{how.name}}</a>
             </div>
         </div>
     </div>

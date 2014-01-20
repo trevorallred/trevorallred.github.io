@@ -31,28 +31,31 @@
         {
             "slug": "remedy",
             "name": "RemedyMD",
+            "website": "http://remedyinformatics.com/",
             "start": "Sept 2004",
             "end": "Sept 2006",
             "logo": "images/logo-remedy.png",
-            "about": null,
-            "role": null
+            "about": "Remedy Informatics was founded in 2003 by Matt MacKay and Gary Kennedy.",
+            "role": "Shortly after starting, RemedyMD was looking to expand their management team."
         },
         {
             "slug": "uci",
             "type": "Education",
             "name": "UCI Merage School of Business",
+            "website": "http://merage.uci.edu/",
             "start": "Sept 2002",
             "end": "Jun 2005",
-            "about": null,
-            "role": null
+            "logo": "images/logo-uci.gif",
+            "about": "The Paul Merage School of Business at UC Irvine provides MBA programs to technology minded leaders. While the Merage School is relatively young, it has quickly grown to consistently rank among the top 10% of programs through exceptional student recruitment, world-class faculty, a strong alumni network and close relationships with both individual business executives and global corporations."
         },
         {
             "slug": "rand",
             "name": "Rand Technology",
             "start": "Sept 2004",
             "end": "Jan 2002",
-            "about": null,
-            "role": null
+            "website": "http://www.randtech.com/",
+            "about": "Founded in 1992, Rand had about 100 employees and specialized in trading high quality electronic components.",
+            "role": "As the only software developer, I built and managed Rand's asset tracking and invoicing system."
         },
         {
             "slug": "rock",
@@ -60,7 +63,9 @@
             "type": "Personal",
             "start": "1996",
             "end": "2004",
-            "about": null,
+            "website": "http://rockclimbing.com",
+            "logo": "images/logo-rc.jpg",
+            "about": "Rockclimbing.com was one of the first social sports websites, which included a variety of spaces including articles, photos, routes, forums, and a shopping.",
             "role": null
         },
         {
@@ -93,6 +98,14 @@
             "hows": ["extjs", "mysql", {
                 "java": 3
             }]
+        },
+        {
+            "slug": "mba",
+            "name": "Master of Business Administration (MBA)",
+            "about": "qweifqdvqoiwvnq wv",
+            "role": "asdfasdfas dfasd fasdf asdf",
+            "where": "uci",
+            "logo": ""
         },
         {
             "slug": "bs",

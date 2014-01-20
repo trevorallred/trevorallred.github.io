@@ -4,7 +4,7 @@
 </ol>
 <div class="container">
     <div class="jumbotron">
-        <img src="{{where.logo}}" class="logo-thumb"/>
+        <img src="{{where.logo}}" class="logo-thumb img-responsive img-thumbnail" />
 
         <h2>{{where.name}}</h2>
 
@@ -33,9 +33,10 @@
                 <a href="/#what/{{what.slug}}" class="list-group-item" ng-repeat="what in whats">
                     <h4>{{what.name}}</h4>
 
-                    <p class="dates badge">{{what.start}} - {{what.end}}</p>
+                    <p class="dates badge" ng-if="what.start">{{what.start}}<span ng-if="what.start && what.end"> - </span>{{what.end}}</p>
 
-                    <p class="quick-summary">{{what.summary}}</p>
+                    <p class="quick-summary" ng-if="what.summary">{{what.summary}}</p>
+                    <p class="quick-summary" ng-if="!what.summary">{{what.about}}</p>
                 </a>
             </div>
         </div>

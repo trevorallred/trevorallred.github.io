@@ -10,7 +10,10 @@ img.profile-photo {
     width: 100%;
     max-width: 200px;
     float: left;
-    padding-right: 1em;
+}
+
+img.logo-thumb {
+    max-height: 300px;
 }
 
 .list-group-item {
@@ -26,6 +29,20 @@ img.profile-photo {
 
 .where .dates, .what .dates {
     float: right;
+}
+
+.how {
+    padding: 1em;
+    margin: 1em;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    border-radius: 4px;
+    border-left: 3px solid #eee;
+}
+
+.how h3 {
+    float: left;
+    margin: -2px 15px 0px 0px;
 }
 
 .how .badge {
