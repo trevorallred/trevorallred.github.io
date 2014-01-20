@@ -4,11 +4,11 @@
 </ol>
 <div class="container">
     <div class="jumbotron">
-        <img src="{{where.logo}}" class="logo-thumb img-responsive img-thumbnail" />
+        <img src="{{where.logo}}" class="logo-thumb img-responsive img-thumbnail" ng-if="where.logo" />
 
         <h2>{{where.name}}</h2>
 
-        <p class="dates badge">{{where.start}} - {{where.end}}</p>
+        <p class="dates badge" ng-if="where.start">{{where.start}}<span ng-if="where.end"> - </span>{{where.end}}</p>
 
         <div ng-if="where.about">
             <h5>About {{where.name}}</h5>

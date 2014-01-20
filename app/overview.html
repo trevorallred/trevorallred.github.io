@@ -8,7 +8,7 @@
     </div>
 
     <div class="row">
-        <div class="col-md-9 how bs-callout bs-callout-warning" ng-if="resume_data.how">
+        <div class="col-md-10 how bs-callout bs-callout-warning" ng-if="resume_data.how">
             <h3 title="How">Skills</h3>
             <a href="/#how/{{how.slug}}" class="badge" ng-repeat="how in resume_data.how">{{how.name}}</a>
         </div>
@@ -25,9 +25,9 @@
             <div class="list-group">
                 <a href="/#where/{{where.slug}}" class="list-group-item thumbnail col-sm-6 col-md-12"
                    ng-repeat="where in resume_data.where">
-                    <img src="{{where.logo}}" ng-if="where.logo">
+                    <img src="{{where.logo}}" class="img-thumbnail img-responsive" ng-if="where.logo">
 
-                    <div class="caption">
+                    <div class="caption clearfix">
                         <p class="dates badge" ng-if="where.start">{{where.start}}<span ng-if="where.end"> - </span>{{where.end}}</p>
 
                         <h4>{{where.name}}</h4>

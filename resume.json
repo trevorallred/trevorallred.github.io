@@ -23,7 +23,7 @@
             "name": "XDimensional Technologies",
             "start": "Oct 2006",
             "end": "Sept 2007",
-            "logo": "images/logo-xdti.png",
+            "logo": "images/logo-xdti.jpg",
             "website": "http://www.xdimensional.com/",
             "about": null,
             "role": null
@@ -54,6 +54,7 @@
             "start": "Sept 2004",
             "end": "Jan 2002",
             "website": "http://www.randtech.com/",
+            "logo": "images/logo-rand.png",
             "about": "Founded in 1992, Rand had about 100 employees and specialized in trading high quality electronic components.",
             "role": "As the only software developer, I built and managed Rand's asset tracking and invoicing system."
         },
@@ -65,7 +66,7 @@
             "end": "2004",
             "website": "http://rockclimbing.com",
             "logo": "images/logo-rc.jpg",
-            "about": "Rockclimbing.com was one of the first social sports websites, which included a variety of spaces including articles, photos, routes, forums, and a shopping.",
+            "about": "Rockclimbing.com was one of the first social sports websites, which included a variety of spaces including articles, photos, routes, forums, and shopping.",
             "role": null
         },
         {
@@ -73,6 +74,8 @@
             "name": "TenFold Corporation",
             "start": "May 1998",
             "end": "Sept 2001",
+            "website": "http://www.tenfold.com/",
+            "logo": "images/logo-tenfold.jpg",
             "about": null,
             "role": null
         },
@@ -81,6 +84,8 @@
             "name": "Brigham Young University",
             "start": "1992",
             "end": "1998",
+            "website": "http://www.byu.edu/",
+            "logo": "images/logo-byu.png",
             "about": null
         }
     ],
@@ -100,12 +105,53 @@
             }]
         },
         {
+            "slug": "auditguard",
+            "name": "GUARD Builder",
+            "summary": "Created a set of tools for use by business analysts to build a robust and scalable question/answer workflow for clients in a wide variety of industries.",
+            "start": "2008",
+            "end": "2009",
+            "about": "PICS needed to gather tens of thousands of questions from clients each day. Using a multi-tenant architecture, we needed a robust, yet flexible architecture. GUARD Builder technology enables business analysts to create a wide range of questionnaires based on the client's location, industries, and risk profiles.",
+            "role": "asdfasdfas dfasd fasdf asdf",
+            "where": "pics",
+            "logo": ""
+        },
+        {
             "slug": "mba",
             "name": "Master of Business Administration (MBA)",
-            "about": "qweifqdvqoiwvnq wv",
-            "role": "asdfasdfas dfasd fasdf asdf",
-            "where": "uci",
-            "logo": ""
+            "start": "Sept 2002",
+            "end": "Jun 2005",
+            "about": "An MBA from UC Irvine.",
+            "where": "uci"
+        },
+        {
+            "slug": "unum",
+            "name": "Unum Claims Processor",
+            "start": "2000",
+            "about": "Implementation and data conversion for a large claims management system for Unum in Tennessee.",
+            "where": "tenfold",
+            "hows": ["tenfold", "db2", "unix"]
+        },
+        {
+            "slug": "hartford",
+            "name": "The Hartford Policy Manager",
+            "start": "2000",
+            "where": "tenfold",
+            "hows": ["tenfold", "sybase", "winNT"]
+        },
+        {
+            "slug": "oppenheimer",
+            "name": "Oppenheimer Revenue Manager",
+            "start": "1999",
+            "where": "tenfold",
+            "hows": ["tenfold", "sybase"]
+        },
+        {
+            "slug": "ilink",
+            "name": "ERP for iLink",
+            "start": "1998",
+            "about": "Client/Server application for rapidly growing long distance provider iLink.",
+            "where": "tenfold",
+            "hows": ["tenfold", "oracle", "db-design"]
         },
         {
             "slug": "bs",
@@ -121,15 +167,63 @@
     ],
     "how": [
         {
-            "slug": "extjs",
-            "name": "ExtJS",
-            "logo": "",
-            "experience": "",
-            "recent": ""
+            "slug": "agile",
+            "type": "Management",
+            "name": "Agile"
+        },
+        {
+            "slug": "scrum",
+            "type": "Management",
+            "name": "Scrum"
+        },
+        {
+            "slug": "java",
+            "type": "Language",
+            "name": "Java"
+        },
+        {
+            "slug": "javascript",
+            "type": "Language",
+            "name": "JavaScript"
+        },
+        {
+            "slug": "php",
+            "type": "Language",
+            "name": "PHP"
+        },
+        {
+            "slug": "csharp",
+            "type": "Language",
+            "name": "C#"
         },
         {
             "slug": "mysql",
+            "type": "Database",
             "name": "MySQL"
+        },
+        {
+            "slug": "oracle",
+            "type": "Database",
+            "name": "Oracle"
+        },
+        {
+            "slug": "sql-server",
+            "type": "Database",
+            "name": "MS SQL Server"
+        },
+        {
+            "slug": "linux",
+            "type": "OS",
+            "name": "Linux"
+        },
+        {
+            "slug": "extjs",
+            "type": "JavaScript",
+            "name": "ExtJS"
+        },
+        {
+            "slug": "tenfold",
+            "name": "TenFold"
         }
     ]
 }

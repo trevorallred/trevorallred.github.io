@@ -7,7 +7,7 @@
     <div class="row">
         <h2>{{what.name}}</h2>
 
-        <p class="dates badge">{{what.start}} - {{what.end}}</p>
+        <p class="dates badge" ng-if="what.start">{{what.start}}<span ng-if="what.end"> - </span>{{what.end}}</p>
 
         <img src="{{what.logo}}" ng-if="what.logo">
         <h5 ng-if="where">At <a href="/#where/{{where.slug}}">{{where.name}}</a></h5>
@@ -26,7 +26,7 @@
             <h3 title="How">Skills Used</h3>
 
             <div>
-                <a href="/#how/{{how.slug}}" class="badge" ng-repeat="how in what.hows">{{how}}</a>
+                <a href="/#how/{{how}}" class="badge" ng-repeat="how in what.hows">{{how}}</a>
             </div>
         </div>
 
