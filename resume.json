@@ -1,10 +1,10 @@
 {
     "name": "Trevor Allred",
     "tagline": "Software Executive",
-    "summary": "I am a software executive with a passion for programming. I'm intelligent and a great strategist. I got my start in web development in 1995 and have building database enabled applications ever since.",
+    "summary": "I am a software executive with a passion for programming. I design, build, deploy, and manage SaaS applications for consumers and enterprise users alike. Ever since I built my first social network, Rockclimbing.com, in 1999, I have excelled at bringing value to end users via the web. With almost 30 years of programming experience--20 years professionally--I have a passion for building solutions. As a natural leader and with help from my two business degrees I am able to understand the business world very well. My natural intelligence coupled with a strong personality enable me to understand an immense range of technologies, engineers, processes, and scenarios. I always want to be on the winning team and work tirelessly to recruit the best people, create the most efficient environment, and deliver the best product possible.",
     "photo": "images/TAllred.jpg",
     "highlights": {
-        "where": ["pics", "remedy", "uci"]
+        "where": ["pics", "remedy", "rock", "uci"]
     },
     "where": [
         {
@@ -13,7 +13,7 @@
             "website": "http://www.picsauditing.com/",
             "start": "Oct 2007",
             "end": "Current",
-            "logo": "images/logo-pics.png",
+            "logo": "images/pics/logo-pics.png",
             "summary": "As VP of Engineering, I am in charge of our flagship product PICS Organizer--a web based application that enables large companies manage their subcontractors.",
             "about": "Founded in 2003, PICS has grown After 5 years of organic growth, we took our first round of funding from NVP [http://www.nvp.com/].",
             "role": "In 2007 I was employee #7 at PICS. I started as the Development Manager with one part time contractor. "
@@ -93,25 +93,38 @@
         {
             "slug": "dynamic-reports",
             "name": "Dynamic Reporting",
-            "summary": "asdfasdfas dfasd fasdf asdf",
-            "about": "qweifqdvqoiwvnq wv",
-            "role": "asdfasdfas dfasd fasdf asdf",
+            "summary": "Revolutionary new custom reporting tool.",
             "where": "pics",
             "logo": "",
             "start": "2013",
-            "screenshot": "",
-            "hows": ["extjs", "mysql", {
-                "java": 3
-            }]
+            "hows": ["extjs", "mysql", "java", "struts", "javascript"]
+        },
+        {
+            "slug": "pics-scrum",
+            "name": "Agile Conversion",
+            "start": "2013",
+            "where": "pics"
+        },
+        {
+            "slug": "pics-quality",
+            "name": "Quality Management Processes",
+            "start": "2012",
+            "where": "pics"
+        },
+        {
+            "slug": "pics-confluence",
+            "name": "PICS Intranet",
+            "summary": "Implemented and championed an Intranet for PICS to internally share knowledge, processes, documentation, and other useful information.",
+            "start": "2009",
+            "where": "pics",
+            "logo": "images/pics/screenshot-login.png"
         },
         {
             "slug": "auditguard",
             "name": "GUARD Builder",
             "summary": "Created a set of tools for use by business analysts to build a robust and scalable question/answer workflow for clients in a wide variety of industries.",
             "start": "2008",
-            "end": "2009",
             "about": "PICS needed to gather tens of thousands of questions from clients each day. Using a multi-tenant architecture, we needed a robust, yet flexible architecture. GUARD Builder technology enables business analysts to create a wide range of questionnaires based on the client's location, industries, and risk profiles.",
-            "role": "asdfasdfas dfasd fasdf asdf",
             "where": "pics",
             "logo": ""
         },
@@ -158,7 +171,6 @@
             "name": "Management Information Systems",
             "summary": "A BS degree with a perfect blend of business and computer science. We studied topics CS topics like database design, SDLC, Visual Basic",
             "about": "qweifqdvqoiwvnq wv",
-            "role": "asdfasdfas dfasd fasdf asdf",
             "where": "byu",
             "logo": "",
             "start": "1992",
@@ -175,6 +187,16 @@
             "slug": "scrum",
             "type": "Management",
             "name": "Scrum"
+        },
+        {
+            "slug": "recruiting",
+            "type": "Management",
+            "name": "Recruiting"
+        },
+        {
+            "slug": "pm",
+            "type": "Management",
+            "name": "Product Management"
         },
         {
             "slug": "java",
@@ -215,6 +237,16 @@
             "slug": "linux",
             "type": "OS",
             "name": "Linux"
+        },
+        {
+            "slug": "struts",
+            "type": "Java",
+            "name": "Struts 2"
+        },
+        {
+            "slug": "junit",
+            "type": "Java",
+            "name": "jUnit"
         },
         {
             "slug": "extjs",

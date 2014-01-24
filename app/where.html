@@ -26,17 +26,23 @@
     </div>
 
     <div class="row">
-        <div class="col-lg-5 what" ng-if="whats.length > 0">
+        <div class="what" ng-if="whats.length > 0">
             <h3 title="What">Projects & Accomplishments</h3>
 
             <div class="list-group">
-                <a href="/#what/{{what.slug}}" class="list-group-item" ng-repeat="what in whats">
-                    <h4>{{what.name}}</h4>
+                <a href="/#what/{{what.slug}}" class="list-group-item thumbnail" ng-repeat="what in whats">
+                    <img src="{{what.logo}}" ng-if="what.logo">
 
-                    <p class="dates badge" ng-if="what.start">{{what.start}}<span ng-if="what.start && what.end"> - </span>{{what.end}}</p>
+                    <div class="caption clearfix">
+                        <h4>{{what.name}}</h4>
 
-                    <p class="quick-summary" ng-if="what.summary">{{what.summary}}</p>
-                    <p class="quick-summary" ng-if="!what.summary">{{what.about}}</p>
+                        <p class="dates badge" ng-if="what.start">{{what.start}}<span
+                                ng-if="what.start && what.end"> - </span>{{what.end}}</p>
+
+                        <p class="quick-summary" ng-if="what.summary">{{what.summary}}</p>
+
+                        <p class="quick-summary" ng-if="!what.summary">{{what.about}}</p>
+                    </div>
                 </a>
             </div>
         </div>

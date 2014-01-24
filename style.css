@@ -6,11 +6,9 @@ h1, h3 {
     text-align: center;
 }
 
-img.profile-photo {
+div.profile-photo img {
     width: 100%;
     max-width: 200px;
-    float: left;
-    margin-right: 1em;
 }
 
 img.logo-thumb {
