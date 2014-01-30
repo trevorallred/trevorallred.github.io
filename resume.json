@@ -3,26 +3,58 @@
     "tagline": "Software Executive",
     "summary": "I am a software executive with a passion for programming. I design, build, deploy, and manage SaaS applications for consumers and enterprise users alike. Ever since I built my first social network, Rockclimbing.com, in 1999, I have excelled at bringing value to end users via the web. With almost 30 years of programming experience--20 years professionally--I have a passion for building solutions. As a natural leader and with help from my two business degrees I am able to understand the business world very well. My natural intelligence coupled with a strong personality enable me to understand an immense range of technologies, engineers, processes, and scenarios. I always want to be on the winning team and work tirelessly to recruit the best people, create the most efficient environment, and deliver the best product possible.",
     "photo": "images/TAllred.jpg",
-    "highlights": {
-        "where": ["pics", "remedy", "rock", "uci"]
-    },
     "where": [
         {
             "slug": "pics",
             "name": "PICS Auditing, LLC",
             "website": "http://www.picsauditing.com/",
-            "start": "Oct 2007",
+            "start": "2007-10-01",
             "end": "Current",
             "logo": "images/pics/logo-pics.png",
             "summary": "As VP of Engineering, I am in charge of our flagship product PICS Organizer--a web based application that enables large companies manage their subcontractors.",
             "about": "Founded in 2003, PICS has grown After 5 years of organic growth, we took our first round of funding from NVP [http://www.nvp.com/].",
-            "role": "In 2007 I was employee #7 at PICS. I started as the Development Manager with one part time contractor. "
+            "role": "In 2007 I was employee #7 at PICS. I started as the Development Manager with one part time contractor. ",
+            "whats": [
+                {
+                    "slug": "dynamic-reports",
+                    "name": "Dynamic Reporting",
+                    "summary": "Revolutionary new custom reporting tool.",
+                    "logo": "",
+                    "start": "2013",
+                    "hows": ["extjs", "mysql", "java", "struts", "javascript"]
+                },
+                {
+                    "slug": "pics-scrum",
+                    "name": "Agile Conversion",
+                    "start": "2013"
+                },
+                {
+                    "slug": "pics-quality",
+                    "name": "Quality Management Processes",
+                    "start": "2012"
+                },
+                {
+                    "slug": "pics-confluence",
+                    "name": "PICS Intranet",
+                    "summary": "Implemented and championed an Intranet for PICS to internally share knowledge, processes, documentation, and other useful information.",
+                    "start": "2009",
+                    "screenshots": "images/pics/screenshot-login.png"
+                },
+                {
+                    "slug": "auditguard",
+                    "name": "GUARD Builder",
+                    "summary": "Created a set of tools for use by business analysts to build a robust and scalable question/answer workflow for clients in a wide variety of industries.",
+                    "start": "2008",
+                    "about": "PICS needed to gather tens of thousands of questions from clients each day. Using a multi-tenant architecture, we needed a robust, yet flexible architecture. GUARD Builder technology enables business analysts to create a wide range of questionnaires based on the client's location, industries, and risk profiles.",
+                    "screenshots": ""
+                }
+            ]
         },
         {
             "slug": "xdti",
             "name": "XDimensional Technologies",
-            "start": "Oct 2006",
-            "end": "Sept 2007",
+            "start": "2006-10",
+            "end": "2007-09",
             "logo": "images/logo-xdti.jpg",
             "website": "http://www.xdimensional.com/",
             "about": null,
@@ -32,8 +64,8 @@
             "slug": "remedy",
             "name": "RemedyMD",
             "website": "http://remedyinformatics.com/",
-            "start": "Sept 2004",
-            "end": "Sept 2006",
+            "start": "2004-09",
+            "end": "2006-09",
             "logo": "images/logo-remedy.png",
             "about": "Remedy Informatics was founded in 2003 by Matt MacKay and Gary Kennedy.",
             "role": "Shortly after starting, RemedyMD was looking to expand their management team."
@@ -43,20 +75,31 @@
             "type": "Education",
             "name": "UCI Merage School of Business",
             "website": "http://merage.uci.edu/",
-            "start": "Sept 2002",
-            "end": "Jun 2005",
+            "start": "2002-09",
+            "end": "2005-06",
             "logo": "images/logo-uci.gif",
-            "about": "The Paul Merage School of Business at UC Irvine provides MBA programs to technology minded leaders. While the Merage School is relatively young, it has quickly grown to consistently rank among the top 10% of programs through exceptional student recruitment, world-class faculty, a strong alumni network and close relationships with both individual business executives and global corporations."
+            "about": "The Paul Merage School of Business at UC Irvine provides MBA programs to technology minded leaders. While the Merage School is relatively young, it has quickly grown to consistently rank among the top 10% of programs through exceptional student recruitment, world-class faculty, a strong alumni network and close relationships with both individual business executives and global corporations.",
+            "whats": [
+                {
+                    "slug": "mba",
+                    "name": "Master of Business Administration (MBA)",
+                    "start": "2002-09",
+                    "end": "2005-06",
+                    "about": "An MBA from UC Irvine."
+                }
+            ]
         },
         {
             "slug": "rand",
             "name": "Rand Technology",
-            "start": "Sept 2004",
-            "end": "Jan 2002",
+            "start": "2004-09",
+            "end": "2002-01",
             "website": "http://www.randtech.com/",
             "logo": "images/logo-rand.png",
             "about": "Founded in 1992, Rand had about 100 employees and specialized in trading high quality electronic components.",
-            "role": "As the only software developer, I built and managed Rand's asset tracking and invoicing system."
+            "role": "As the only software developer, I built and managed Rand's asset tracking and invoicing system.",
+            "whats": [
+            ]
         },
         {
             "slug": "rock",
@@ -72,109 +115,71 @@
         {
             "slug": "tenfold",
             "name": "TenFold Corporation",
-            "start": "May 1998",
-            "end": "Sept 2001",
+            "start": "1998-05",
+            "end": "2001-09",
             "website": "http://www.tenfold.com/",
             "logo": "images/logo-tenfold.jpg",
             "about": null,
-            "role": null
+            "role": null,
+            "whats": [
+                {
+                    "slug": "unum",
+                    "name": "Unum Claims Processor",
+                    "start": "2000",
+                    "about": "Implementation and data conversion for a large claims management system for Unum in Tennessee.",
+                    "where": "tenfold",
+                    "hows": ["tenfold", "db2", "unix"]
+                },
+                {
+                    "slug": "hartford",
+                    "name": "The Hartford Policy Manager",
+                    "start": "2000",
+                    "where": "tenfold",
+                    "hows": ["tenfold", "sybase", "winNT"]
+                },
+                {
+                    "slug": "oppenheimer",
+                    "name": "Oppenheimer Revenue Manager",
+                    "start": "1999",
+                    "where": "tenfold",
+                    "hows": ["tenfold", "sybase"]
+                },
+                {
+                    "slug": "ilink",
+                    "name": "ERP for iLink",
+                    "start": "1998",
+                    "about": "Client/Server application for rapidly growing long distance provider iLink.",
+                    "where": "tenfold",
+                    "hows": ["tenfold", "oracle", "db-design"]
+                }
+            ]
         },
         {
             "slug": "byu",
             "name": "Brigham Young University",
-            "start": "1992",
-            "end": "1998",
+            "start": "1992-08",
+            "end": "1998-05",
             "website": "http://www.byu.edu/",
             "logo": "images/logo-byu.png",
-            "about": null
+            "about": null,
+            "whats": [
+                {
+                    "slug": "bs",
+                    "name": "B.S. Management Information Systems",
+                    "summary": "A Bachelors of Science degree with a perfect blend of business and computer science. We studied topics CS topics like database design, SDLC, Visual Basic",
+                    "start": "1992-08",
+                    "end": "1998-05"
+                }
+            ]
         }
     ],
     "what": [
         {
-            "slug": "dynamic-reports",
-            "name": "Dynamic Reporting",
-            "summary": "Revolutionary new custom reporting tool.",
-            "where": "pics",
-            "logo": "",
-            "start": "2013",
-            "hows": ["extjs", "mysql", "java", "struts", "javascript"]
-        },
-        {
-            "slug": "pics-scrum",
-            "name": "Agile Conversion",
-            "start": "2013",
-            "where": "pics"
-        },
-        {
-            "slug": "pics-quality",
-            "name": "Quality Management Processes",
-            "start": "2012",
-            "where": "pics"
-        },
-        {
-            "slug": "pics-confluence",
-            "name": "PICS Intranet",
-            "summary": "Implemented and championed an Intranet for PICS to internally share knowledge, processes, documentation, and other useful information.",
-            "start": "2009",
-            "where": "pics",
-            "logo": "images/pics/screenshot-login.png"
-        },
-        {
-            "slug": "auditguard",
-            "name": "GUARD Builder",
-            "summary": "Created a set of tools for use by business analysts to build a robust and scalable question/answer workflow for clients in a wide variety of industries.",
-            "start": "2008",
-            "about": "PICS needed to gather tens of thousands of questions from clients each day. Using a multi-tenant architecture, we needed a robust, yet flexible architecture. GUARD Builder technology enables business analysts to create a wide range of questionnaires based on the client's location, industries, and risk profiles.",
-            "where": "pics",
-            "logo": ""
-        },
-        {
-            "slug": "mba",
-            "name": "Master of Business Administration (MBA)",
-            "start": "Sept 2002",
-            "end": "Jun 2005",
-            "about": "An MBA from UC Irvine.",
-            "where": "uci"
-        },
-        {
-            "slug": "unum",
-            "name": "Unum Claims Processor",
-            "start": "2000",
-            "about": "Implementation and data conversion for a large claims management system for Unum in Tennessee.",
-            "where": "tenfold",
-            "hows": ["tenfold", "db2", "unix"]
-        },
-        {
-            "slug": "hartford",
-            "name": "The Hartford Policy Manager",
-            "start": "2000",
-            "where": "tenfold",
-            "hows": ["tenfold", "sybase", "winNT"]
-        },
-        {
-            "slug": "oppenheimer",
-            "name": "Oppenheimer Revenue Manager",
-            "start": "1999",
-            "where": "tenfold",
-            "hows": ["tenfold", "sybase"]
-        },
-        {
-            "slug": "ilink",
-            "name": "ERP for iLink",
-            "start": "1998",
-            "about": "Client/Server application for rapidly growing long distance provider iLink.",
-            "where": "tenfold",
-            "hows": ["tenfold", "oracle", "db-design"]
-        },
-        {
-            "slug": "bs",
-            "name": "Management Information Systems",
-            "summary": "A BS degree with a perfect blend of business and computer science. We studied topics CS topics like database design, SDLC, Visual Basic",
-            "about": "qweifqdvqoiwvnq wv",
-            "where": "byu",
-            "logo": "",
-            "start": "1992",
-            "end": "1998"
+            "slug": "resume",
+            "name": "Resume IO",
+            "website": "https://github.com/trevorallred/resume-io",
+            "summary": "This is an open source project that I created to better display my background and to experiment with AngularJS.",
+            "start": "2014-01"
         }
     ],
     "how": [
