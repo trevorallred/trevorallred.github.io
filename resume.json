@@ -7,6 +7,7 @@
         {
             "slug": "pics",
             "name": "PICS Auditing, LLC",
+            "title": "Vice President of Software Engineering",
             "website": "http://www.picsauditing.com/",
             "start": "2007-10-01",
             "end": "Current",
@@ -30,6 +31,7 @@
                     "screenshots": "images/logo-scrum.jpg",
                     "start": "2012",
                     "end": "Current",
+                    "about": "I have",
                     "hows": ["agile", "scrum", "kanban", "jira"]
                 },
                 {
@@ -51,13 +53,14 @@
                     "summary": "Created a set of tools for use by business analysts to build a robust and scalable question/answer workflow for clients in a wide variety of industries.",
                     "start": "2008",
                     "about": "PICS needed to gather tens of thousands of questions from clients each day. Using a multi-tenant architecture, we needed a robust, yet flexible architecture. GUARD Builder technology enables business analysts to create a wide range of questionnaires based on the client's location, industries, and risk profiles.",
-                    "screenshots": ["images/pics/screenshot-audits-category.png"]
+                    "screenshots": ["images/pics/screenshot-audits-category.png", "images/pics/screenshot-audits-rules.png"]
                 }
             ]
         },
         {
             "slug": "xdti",
             "name": "XDimensional Technologies",
+            "title": "Systems Architect",
             "start": "2006-10",
             "end": "2007-09",
             "logo": "images/logo-xdti.jpg",
@@ -68,6 +71,7 @@
         {
             "slug": "remedy",
             "name": "RemedyMD",
+            "title": "Vice President of Development",
             "website": "http://remedyinformatics.com/",
             "start": "2004-09",
             "end": "2006-09",
@@ -97,6 +101,7 @@
         {
             "slug": "rand",
             "name": "Rand Technology",
+            "title": "Systems Architect",
             "start": "2004-09",
             "end": "2002-01",
             "website": "http://www.randtech.com/",
@@ -109,6 +114,7 @@
         {
             "slug": "rock",
             "name": "Rockclimbing.com",
+            "title": "Founder",
             "type": "Personal",
             "start": "1996",
             "end": "2004",
@@ -118,8 +124,20 @@
             "role": null
         },
         {
+            "slug": "sharedtree",
+            "name": "SharedTree",
+            "title": "Founder",
+            "type": "Personal",
+            "start": "2004",
+            "end": "Current",
+            "website": "http://www.sharedtree.com",
+            "logo": "images/logo-stree.png",
+            "role": null
+        },
+        {
             "slug": "tenfold",
             "name": "TenFold Corporation",
+            "title": "Application Developer and Project Manager",
             "start": "1998-05",
             "end": "2001-09",
             "website": "http://www.tenfold.com/",
@@ -180,11 +198,12 @@
     ],
     "what": [
         {
-            "slug": "resume",
+            "slug": "resume-io",
             "name": "Resume IO",
             "website": "https://github.com/trevorallred/resume-io",
             "summary": "This is an open source project that I created to better display my background and to experiment with AngularJS.",
-            "start": "2014-01"
+            "start": "2014-01",
+            "hows": ["angular", "javascript", "git"]
         }
     ],
     "how": [
@@ -197,6 +216,11 @@
             "slug": "scrum",
             "type": "Management",
             "name": "Scrum"
+        },
+        {
+            "slug": "kanban",
+            "type": "Management",
+            "name": "Kanban"
         },
         {
             "slug": "recruiting",
@@ -222,6 +246,11 @@
             "slug": "php",
             "type": "Language",
             "name": "PHP"
+        },
+        {
+            "slug": "scala",
+            "type": "Language",
+            "name": "Scala"
         },
         {
             "slug": "csharp",
@@ -262,6 +291,11 @@
             "slug": "extjs",
             "type": "JavaScript",
             "name": "ExtJS"
+        },
+        {
+            "slug": "angular",
+            "type": "JavaScript",
+            "name": "AngularJS"
         },
         {
             "slug": "tenfold",
