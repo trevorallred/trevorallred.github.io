@@ -12,8 +12,8 @@
             "end": "Current",
             "logo": "images/pics/logo-pics.png",
             "summary": "As VP of Engineering, I am in charge of our flagship product PICS Organizer--a web based application that enables large companies manage their subcontractors.",
-            "about": "Founded in 2003, PICS has grown After 5 years of organic growth, we took our first round of funding from NVP [http://www.nvp.com/].",
-            "role": "In 2007 I was employee #7 at PICS. I started as the Development Manager with one part time contractor. ",
+            "about": "As the fastest-growing company in the world in supplier and contractor management, PICS is a renowned contractor prequalification company. PICS helps the largest organizations in the world create a safe and sustainable supply chain and is the global standard in contractor screening. PICS is headquartered in Irvine, California, with offices in Texas, Canada, United Kingdom, Germany, Brazil, Australia and Singapore. Norwest Venture Partners made a $35 million minority equity investment in PICS in December 2012.",
+            "role": "My primary focus at PICS has been PICS Organizer, our flagship web based application that powers all our operations. In 2007, I joined PICS as employee #7 and have been a major reason for the company's growth and success.",
             "whats": [
                 {
                     "slug": "dynamic-reports",
@@ -21,16 +21,21 @@
                     "summary": "Revolutionary new custom reporting tool.",
                     "logo": "",
                     "start": "2013",
-                    "hows": ["extjs", "mysql", "java", "struts", "javascript"]
+                    "screenshots": ["images/pics/screenshot-dr-report.png", "images/pics/screenshot-dr-columns.png", "images/pics/screenshot-dr-favorites.png"],
+                    "hows": ["java", "extjs", "mysql", "struts", "javascript"]
                 },
                 {
                     "slug": "pics-scrum",
                     "name": "Agile Conversion",
-                    "start": "2013"
+                    "screenshots": "images/logo-scrum.jpg",
+                    "start": "2012",
+                    "end": "Current",
+                    "hows": ["agile", "scrum", "kanban", "jira"]
                 },
                 {
                     "slug": "pics-quality",
                     "name": "Quality Management Processes",
+                    "screenshots": "images/flow.jpg",
                     "start": "2012"
                 },
                 {
@@ -38,7 +43,7 @@
                     "name": "PICS Intranet",
                     "summary": "Implemented and championed an Intranet for PICS to internally share knowledge, processes, documentation, and other useful information.",
                     "start": "2009",
-                    "screenshots": "images/pics/screenshot-login.png"
+                    "screenshots": "images/pics/confluence-logo.jpg"
                 },
                 {
                     "slug": "auditguard",
@@ -46,7 +51,7 @@
                     "summary": "Created a set of tools for use by business analysts to build a robust and scalable question/answer workflow for clients in a wide variety of industries.",
                     "start": "2008",
                     "about": "PICS needed to gather tens of thousands of questions from clients each day. Using a multi-tenant architecture, we needed a robust, yet flexible architecture. GUARD Builder technology enables business analysts to create a wide range of questionnaires based on the client's location, industries, and risk profiles.",
-                    "screenshots": ""
+                    "screenshots": ["images/pics/screenshot-audits-category.png"]
                 }
             ]
         },
