@@ -1,0 +1,39 @@
+{
+  "name": "resume-io",
+  "version": "0.1.1",
+  "description": "Resume builder based on a custom JSON file to track work history, education, projects, and skills. Fork and host on Github IO.",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "config",
+    "samples",
+    "scripts",
+    "bower_components",
+    "bower.json",
+    "server.js",
+    "node_modules",
+    "test"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.11",
+    "angular-route": ">=1.2.11",
+    "angular-sanitize": ">=1.2.11",
+    "bootstrap": "3.0.3",
+    "angular-bootstrap": "0.10.0",
+    "angular-ui-bootstrap": "0.10.0",
+    "angular-ui-utils": "0.1.0",
+    "html5shiv": "3.7.0",
+    "respond": "1.4.2"
+  },
+  "homepage": "https://github.com/trevorallred/resume-io",
+  "_release": "0.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.1",
+    "commit": "881e23ae97f2ea824262fcda17eecb345c06ca94"
+  },
+  "_source": "git://github.com/trevorallred/resume-io.git",
+  "_target": "~0.1.1",
+  "_originalSource": "resume-io",
+  "_direct": true
+}

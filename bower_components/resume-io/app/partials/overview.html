@@ -1,0 +1,103 @@
+<div class="alert alert-danger" ng-if="resume_data.errors">
+    <h1>Resume Data Errors</h1>
+    <table class="table resume-error">
+        <tr ng-repeat="error in resume_data.errors">
+            <td><h4>{{error.problem}}</h4></td>
+            <td ng-bind-html="error.description"></td>
+        </tr>
+    </table>
+</div>
+<div class="alert alert-warning" ng-if="resume_data.warnings">
+    <h1>Resume Data Warnings</h1>
+    <table class="table resume-error">
+        <tr ng-repeat="error in resume_data.warnings">
+            <td><h4>{{error.problem}}</h4></td>
+            <td ng-bind-html="error.description"></td>
+        </tr>
+    </table>
+</div>
+<div id="wrap" class="container" ng-if="resume_data.name">
+    <div class="jumbotron">
+        <div class="profile-photo col-md-3" ng-if="resume_data.photo">
+            <img class="img-circle" src="{{resume_data.photo}}">
+        </div>
+        <div class="col-md-9">
+            <h1>{{resume_data.name}}</h1>
+
+            <h3 ng-if="resume_data.tagline">{{resume_data.tagline}}</h3>
+
+            <p ng-bind-html="resume_data.summary"></p>
+        </div>
+        <div class="clearfix col-xm-12"></div>
+    </div>
+
+    <div class="col-xs-12 how" ng-if="resume_data.how">
+        <h3 title="How">Skills</h3>
+        <a href="/#how/{{how.slug}}" class="badge badge-{{how.level}}"
+           ng-repeat="how in resume_data.how">{{how.name}}</a>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-md-6 where" ng-if="resume_data.where">
+            <h3 title="Where">Work History & Education</h3>
+
+            <div class="list-group">
+                <a href="/#where/{{where.slug}}" class="list-group-item col-xs-12"
+                   ng-repeat="where in resume_data.where | orderBy:'start.date':true">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 text-center">
+                            <img src="{{where.logo}}" class="logo" ng-if="where.logo">
+                        </div>
+                        <div class="caption clearfix col-xs-12 col-sm-8">
+                            <h4 class="col-xs-12">{{where.name}}</h4>
+
+                            <p class="dates badge" ng-if="where.start">{{where.start.display}}<span ng-if="where.end"> - </span>{{where.end.display}}
+                            </p>
+
+                            <h5 ng-if="where.title">{{where.title}}</h5>
+
+                            <p class="quick-summary" ng-if="where.summary" ng-bind-html="where.summary"></p>
+
+                            <p class="quick-summary" ng-if="!where.summary" ng-bind-html="where.about"></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-md-6 what" ng-if="resume_data.what">
+            <h3 title="What">Projects & Accomplishments</h3>
+
+            <div class="list-group">
+                <a href="/#what/{{what.slug}}" class="list-group-item thumbnail col-xs-12"
+                   ng-repeat="what in resume_data.what | orderBy:'start.date':true">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 text-center">
+                            <img src="{{what.screenshots[0]}}" class="logo" ng-if="what.screenshots[0]">
+                        </div>
+                        <div class="caption clearfix col-xs-12 col-sm-8">
+                            <h4 class="col-xs-12">{{what.name}}
+                                <small>@ {{what.where}}</small>
+                            </h4>
+
+                            <p class="dates badge" ng-if="what.start">{{what.start.display}}<span ng-if="what.end"> - </span>{{what.end.display}}
+                            </p>
+
+                            <p class="quick-summary" ng-if="what.summary" ng-bind-html="what.summary"></p>
+
+                            <p class="quick-summary" ng-if="!what.summary" ng-bind-html="what.about"></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <p>
+            Skillfully crafted using <a href="https://github.com/trevorallred/resume-io">Resume IO</a>.
+            <a class="badge" href="/#resume/{{sample.slug}}" ng-repeat="sample in samples">{{sample.name}}</a>
+        </p>
+    </div>
+</footer>
