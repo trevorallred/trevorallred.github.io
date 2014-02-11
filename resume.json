@@ -204,6 +204,14 @@
             "summary": "This is an open source project that I created to better display my background and to experiment with AngularJS.",
             "start": "2014-01",
             "hows": ["angular", "javascript", "git"]
+        },
+        {
+            "slug": "chess",
+            "name": "Chess Engine and AI",
+            "website": "http://chess.trevor.cloudbees.net/",
+            "summary": "This was a project I did for fun. Write a chess engine used to play the game of chess and then write an AI that can beat an average player. Done!",
+            "start": "2013-05",
+            "hows": ["javascript", "git", "jquery", "java", "maven"]
         }
     ],
     "how": [
